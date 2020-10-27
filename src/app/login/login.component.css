@@ -1,0 +1,26 @@
+.login{
+    padding-top: 15%;
+    padding-bottom: 15%;
+    margin-left: 20%;
+    margin-right: 20%;
+    align-content: center;
+    width:60%;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+form{
+    margin:0 auto;
+    width:75%;
+}
+
+input{
+    margin:4px auto;
+    width:50%;
+    align-content: center;
+}
+
+button{
+    margin:4px auto;
+    width:25%;
+}

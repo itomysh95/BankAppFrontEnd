@@ -1,0 +1,12 @@
+<div class="container login">
+    <h1>Please Log in to Continue</h1>
+    <form [formGroup]="loginForm" (ngSubmit)="checkLogin()" >
+        <input type="text"
+            required
+            formControlName="username"
+            placeholder="Username or Access Card"
+        ><br/>
+        <input type="password" placeholder="Password"><br>
+        <button type="submit" class="btn btn-success">Log in</button>
+    </form>
+</div>
